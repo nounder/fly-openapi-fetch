@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "build": "deno run -A build.ts"
+  },
+
+  "compilerOptions": {
+    "noUncheckedIndexedAccess": true
+  }
+}
