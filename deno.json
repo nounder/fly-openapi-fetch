@@ -1,4 +1,7 @@
 {
+  "name": "@nounderline/fly-openapi-fetch",
+  "version": "0.1.0",
+  "exports": "./mod.ts",
   "tasks": {
     "build": "deno run -A build.ts"
   },
