@@ -2,26 +2,24 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "npm:@types/node": "npm:@types/node@18.16.19",
-      "npm:openapi-fetch": "npm:openapi-fetch@0.10.2",
-      "npm:openapi-typescript": "npm:openapi-typescript@7.0.2_typescript@5.5.3"
+      "npm:openapi-typescript@7.1.0": "npm:openapi-typescript@7.1.0_typescript@5.5.4"
     },
     "npm": {
-      "@babel/code-frame@7.24.2": {
-        "integrity": "sha512-y5+tLQyV8pg3fsiln67BVLD1P13Eg4lh5RW9mF0zUuvLrv9uIQ4MCL+CRT+FTsBlBjcIan6PGsLcBN0m3ClUyQ==",
+      "@babel/code-frame@7.24.7": {
+        "integrity": "sha512-BcYH1CVJBO9tvyIZ2jVeXgSIMvGZ2FDRvDdOIVQyuklNKSsx+eppDEBq/g47Ayw+RqNFE+URvOShmf+f/qwAlA==",
         "dependencies": {
-          "@babel/highlight": "@babel/highlight@7.24.2",
+          "@babel/highlight": "@babel/highlight@7.24.7",
           "picocolors": "picocolors@1.0.1"
         }
       },
-      "@babel/helper-validator-identifier@7.22.20": {
-        "integrity": "sha512-Y4OZ+ytlatR8AI+8KZfKuL5urKp7qey08ha31L8b3BwewJAoJamTzyvxPR/5D+KkdJCGPq/+8TukHBlY10FX9A==",
+      "@babel/helper-validator-identifier@7.24.7": {
+        "integrity": "sha512-rR+PBcQ1SMQDDyF6X0wxtG8QyLCgUB0eRAGguqRLfkCA87l7yAP7ehq8SNj96OOGTO8OBV70KhuFYcIkHXOg0w==",
         "dependencies": {}
       },
-      "@babel/highlight@7.24.2": {
-        "integrity": "sha512-Yac1ao4flkTxTteCDZLEvdxg2fZfz1v8M4QpaGypq/WPDqg3ijHYbDfs+LG5hvzSoqaSZ9/Z9lKSP3CjZjv+pA==",
+      "@babel/highlight@7.24.7": {
+        "integrity": "sha512-EStJpq4OuY8xYfhGVXngigBJRWxftKX9ksiGDnmlY3o7B/V7KIAc9X4oiK87uPJSc/vs5L869bem5fhZa8caZw==",
         "dependencies": {
-          "@babel/helper-validator-identifier": "@babel/helper-validator-identifier@7.22.20",
+          "@babel/helper-validator-identifier": "@babel/helper-validator-identifier@7.24.7",
           "chalk": "chalk@2.4.2",
           "js-tokens": "js-tokens@4.0.0",
           "picocolors": "picocolors@1.0.1"
@@ -36,15 +34,15 @@
           "uri-js": "uri-js@4.4.1"
         }
       },
-      "@redocly/config@0.6.3": {
-        "integrity": "sha512-hGWJgCsXRw0Ow4rplqRlUQifZvoSwZipkYnt11e3SeH1Eb23VUIDBcRuaQOUqy1wn0eevXkU2GzzQ8fbKdQ7Mg==",
+      "@redocly/config@0.7.0": {
+        "integrity": "sha512-6GKxTo/9df0654Mtivvr4lQnMOp+pRj9neVywmI5+BwfZLTtkJnj2qB3D6d8FHTr4apsNOf6zTa5FojX0Evh4g==",
         "dependencies": {}
       },
-      "@redocly/openapi-core@1.18.0": {
-        "integrity": "sha512-kcbt7w23pcVYGLnJkh2LZpXF1OX5RDM4DLOtwPug2HvRE8ow/YfY8ZEM1YCFlA41D8rBPBVP918cYeIx4BVUbw==",
+      "@redocly/openapi-core@1.18.1": {
+        "integrity": "sha512-y2ZR3aaVF80XRVoFP0Dp2z5DeCOilPTuS7V4HnHIYZdBTfsqzjkO169h5JqAaifnaLsLBhe3YArdgLb7W7wW6Q==",
         "dependencies": {
           "@redocly/ajv": "@redocly/ajv@8.11.0",
-          "@redocly/config": "@redocly/config@0.6.3",
+          "@redocly/config": "@redocly/config@0.7.0",
           "colorette": "colorette@1.4.0",
           "https-proxy-agent": "https-proxy-agent@7.0.5",
           "js-levenshtein": "js-levenshtein@1.1.6",
@@ -55,10 +53,6 @@
           "pluralize": "pluralize@8.0.0",
           "yaml-ast-parser": "yaml-ast-parser@0.0.43"
         }
-      },
-      "@types/node@18.16.19": {
-        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
-        "dependencies": {}
       },
       "agent-base@7.1.1": {
         "integrity": "sha512-H0TSyFNDMomMNJQBn8wFV5YC/2eJ+VXECwOadZJT554xP6cODZHPX3H9QMQECxvrgiSOP1pHjy1sMWQVYJOUOA==",
@@ -179,33 +173,23 @@
           "whatwg-url": "whatwg-url@5.0.0"
         }
       },
-      "openapi-fetch@0.10.2": {
-        "integrity": "sha512-GCzgKIZchnxZRnztiOlRTKk9tQT0NHvs5MNXYFtOwG7xaj1iCJOGDsTLbn/2QUP37PjGTT890qERFjvmjxzQMg==",
+      "openapi-typescript@7.1.0_typescript@5.5.4": {
+        "integrity": "sha512-qxjGhIO6ODCGximE2HiozkPUNbO4y7F2OQyGa+gcn6TdZMMtmuiyDPqoKmf+Y4VlvQRfhJUTU635w8KfZVeuVA==",
         "dependencies": {
-          "openapi-typescript-helpers": "openapi-typescript-helpers@0.0.9"
-        }
-      },
-      "openapi-typescript-helpers@0.0.9": {
-        "integrity": "sha512-BO2TvIDAO/FPVKz1Nj2gy+pUOHfaoENdK5UP3H0Jbh0VXBf3dwYMs58ZwOjiezrbHA2LamdquoyQgahTPvIxGA==",
-        "dependencies": {}
-      },
-      "openapi-typescript@7.0.2_typescript@5.5.3": {
-        "integrity": "sha512-BBrYEf0YdW31Ernd07cD/qHoalSuiiUQvy+rHvU/1Iz9WbcFpRsIXrnfEnrEuiGTRuKCG6cDQCrxNK/rbwQRLg==",
-        "dependencies": {
-          "@redocly/openapi-core": "@redocly/openapi-core@1.18.0",
+          "@redocly/openapi-core": "@redocly/openapi-core@1.18.1",
           "ansi-colors": "ansi-colors@4.1.3",
           "parse-json": "parse-json@8.1.0",
           "supports-color": "supports-color@9.4.0",
-          "typescript": "typescript@5.5.3",
+          "typescript": "typescript@5.5.4",
           "yargs-parser": "yargs-parser@21.1.1"
         }
       },
       "parse-json@8.1.0": {
         "integrity": "sha512-rum1bPifK5SSar35Z6EKZuYPJx85pkNaFrxBK3mwdfSJ1/WKbYrjoW/zTPSjRRamfmVX1ACBIdFAO0VRErW/EA==",
         "dependencies": {
-          "@babel/code-frame": "@babel/code-frame@7.24.2",
+          "@babel/code-frame": "@babel/code-frame@7.24.7",
           "index-to-position": "index-to-position@0.1.2",
-          "type-fest": "type-fest@4.21.0"
+          "type-fest": "type-fest@4.23.0"
         }
       },
       "picocolors@1.0.1": {
@@ -238,12 +222,12 @@
         "integrity": "sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==",
         "dependencies": {}
       },
-      "type-fest@4.21.0": {
-        "integrity": "sha512-ADn2w7hVPcK6w1I0uWnM//y1rLXZhzB9mr0a3OirzclKF1Wp6VzevUmzz/NRAWunOT6E8HrnpGY7xOfc6K57fA==",
+      "type-fest@4.23.0": {
+        "integrity": "sha512-ZiBujro2ohr5+Z/hZWHESLz3g08BBdrdLMieYFULJO+tWc437sn8kQsWLJoZErY8alNhxre9K4p3GURAG11n+w==",
         "dependencies": {}
       },
-      "typescript@5.5.3": {
-        "integrity": "sha512-/hreyEujaB0w76zKo6717l3L0o/qEUtRgdvUBvlkhoWeOVMjMuHNHk0BRBzikzuGDqNmPQbg5ifMEqsHLiIUcQ==",
+      "typescript@5.5.4": {
+        "integrity": "sha512-Mtq29sKDAEYP7aljRgtPOpTvOfbwRWlS6dPRzwjdE+C0R4brX/GUyhHSecbHMFLNBLcJIPt9nl9yG5TZ1weH+Q==",
         "dependencies": {}
       },
       "uri-js@4.4.1": {
@@ -273,5 +257,8 @@
       }
     }
   },
-  "remote": {}
+  "remote": {
+    "https://esm.sh/openapi-fetch@0.10.2": "35c412f5fcd65d05a8db165a4e170803f18d0653ace3eae3df28afda7dc5060e",
+    "https://esm.sh/v135/openapi-fetch@0.10.2/denonext/openapi-fetch.mjs": "f2c5b41319eea52342800414ada9bcb78d41dbd09afc9c1827c3fcfa1255ee5c"
+  }
 }
